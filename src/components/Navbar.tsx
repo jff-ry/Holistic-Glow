@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
-import { Menu, X, Phone, MessageCircle, Clock, Sparkles } from 'lucide-react';
+import { Menu, X, Phone, MessageCircle, Mail, Clock, Sparkles } from 'lucide-react';
 import brandLogoImg from '../assets/images/holistic_glow_logo_1788024251079.jpg';
 
 export default function Navbar() {
@@ -47,7 +47,17 @@ export default function Navbar() {
             </span>
           </div>
 
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-4 lg:gap-6">
+            <a
+              id="topbar-email-link"
+              href="mailto:holisticglow57@gmail.com"
+              className="flex items-center gap-1.5 text-[#4A3E36] hover:text-[#14382C] font-medium transition-colors"
+            >
+              <Mail className="w-3.5 h-3.5 text-[#C59B27]" />
+              <span className="hidden xl:inline">holisticglow57@gmail.com</span>
+              <span className="xl:hidden">Email</span>
+            </a>
+            <span className="text-[#C59B27]/60">|</span>
             <a
               id="topbar-phone-link"
               href="tel:+254719728779"
@@ -65,7 +75,7 @@ export default function Navbar() {
               className="flex items-center gap-1.5 text-[#4A3E36] hover:text-[#14382C] font-medium transition-colors"
             >
               <MessageCircle className="w-3.5 h-3.5 text-[#14382C]" />
-              <span>WhatsApp: +254 765 728 779</span>
+              <span>WhatsApp</span>
             </a>
           </div>
         </div>

@@ -108,7 +108,7 @@ export default function BookingPage() {
       `Appointment Request - Holistic Glow Mobile Spa (${formData.fullName.trim() || 'New Client'})`
     );
     const body = encodeURIComponent(generateWhatsAppMessage());
-    window.location.href = `mailto:theconciergespa7@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:holisticglow57@gmail.com?subject=${subject}&body=${body}`;
   };
 
   return (
@@ -626,7 +626,7 @@ export default function BookingPage() {
                 {/* Email */}
                 <a
                   id="booking-sidebar-email"
-                  href="mailto:theconciergespa7@gmail.com"
+                  href="mailto:holisticglow57@gmail.com"
                   className="flex items-start gap-3.5 p-4 rounded-2xl bg-[#14382C] border border-[#C59B27]/40 hover:border-[#C59B27] transition-colors group shadow-xs"
                 >
                   <Mail className="w-5 h-5 text-[#C59B27] shrink-0 mt-0.5" />
@@ -635,7 +635,7 @@ export default function BookingPage() {
                       Email Inquiries
                     </span>
                     <span className="text-base font-semibold text-[#F3ECE2] group-hover:text-[#C59B27] transition-colors break-all">
-                      theconciergespa7@gmail.com
+                      holisticglow57@gmail.com
                     </span>
                   </div>
                 </a>

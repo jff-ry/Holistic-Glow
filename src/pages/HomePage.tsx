@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Sparkles, ArrowRight, Clock, MapPin, ShieldCheck, Heart, Car, HeartPulse } from 'lucide-react';
+import { Sparkles, ArrowRight, Clock, MapPin, ShieldCheck, Heart, Car, HeartPulse, Mail } from 'lucide-react';
 import TrustIndicators from '../components/TrustIndicators';
 import { CATEGORIES } from '../data/servicesData';
 import heroAfricanSpaImg from '../assets/images/hero_african_spa_1788112077485.jpg';
@@ -351,7 +351,7 @@ export default function HomePage() {
               href="https://wa.me/254765728779"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-9 py-4 rounded-full bg-[#C59B27] text-[#0D261E] text-xs sm:text-sm uppercase tracking-[0.2em] font-bold hover:bg-[#DFB257] transition-all shadow-md hover:shadow-lg"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-full bg-[#C59B27] text-[#0D261E] text-xs sm:text-sm uppercase tracking-[0.2em] font-bold hover:bg-[#DFB257] transition-all shadow-md hover:shadow-lg"
             >
               <span>Chat on WhatsApp</span>
             </a>
@@ -359,14 +359,24 @@ export default function HomePage() {
             <a
               id="home-bottom-call-btn"
               href="tel:+254719728779"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-full bg-transparent text-[#F3ECE2] text-xs sm:text-sm uppercase tracking-[0.2em] font-semibold border-2 border-[#C59B27]/60 hover:border-[#C59B27] hover:bg-[#F3ECE2]/10 transition-all"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-full bg-transparent text-[#F3ECE2] text-xs sm:text-sm uppercase tracking-[0.2em] font-semibold border-2 border-[#C59B27]/60 hover:border-[#C59B27] hover:bg-[#F3ECE2]/10 transition-all"
             >
               <span>Call +254 719 728 779</span>
             </a>
+
+            <a
+              id="home-bottom-email-btn"
+              href="mailto:holisticglow57@gmail.com"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-[#14382C] text-[#DFB257] text-xs sm:text-sm uppercase tracking-[0.18em] font-semibold border border-[#C59B27]/60 hover:border-[#C59B27] hover:text-[#F3ECE2] transition-all"
+            >
+              <Mail className="w-4 h-4 text-[#C59B27]" />
+              <span>Email Us</span>
+            </a>
           </div>
 
-          <div className="pt-6 text-xs sm:text-sm text-[#F3ECE2]/70 font-medium">
-            Available daily 8:00 AM – 7:00 PM • Direct Tel: +254 719 728 779 • Nairobi & Environs, Kenya
+          <div className="pt-6 text-xs sm:text-sm text-[#F3ECE2]/70 font-medium space-y-1">
+            <p>Available daily 8:00 AM – 7:00 PM • Direct Tel: +254 719 728 779 • Nairobi & Environs, Kenya</p>
+            <p className="text-[#C59B27]">Email: <a href="mailto:holisticglow57@gmail.com" className="underline hover:text-[#DFB257]">holisticglow57@gmail.com</a></p>
           </div>
         </div>
       </section>

@@ -117,7 +117,7 @@ export default function Footer() {
               <li>
                 <a
                   id="footer-email-link"
-                  href="mailto:theconciergespa7@gmail.com"
+                  href="mailto:holisticglow57@gmail.com"
                   className="flex items-center gap-3.5 text-[#F3ECE2]/90 hover:text-[#C59B27] transition-colors group"
                 >
                   <div className="w-9 h-9 rounded-xl bg-[#14382C] border border-[#C59B27]/50 flex items-center justify-center text-[#C59B27] group-hover:bg-[#C59B27] group-hover:text-[#0D261E] transition-colors shadow-xs">
@@ -125,7 +125,7 @@ export default function Footer() {
                   </div>
                   <div>
                     <span className="block text-xs text-[#C59B27] uppercase tracking-wider font-bold">Email Enquiries</span>
-                    <span className="font-medium break-all">theconciergespa7@gmail.com</span>
+                    <span className="font-medium break-all">holisticglow57@gmail.com</span>
                   </div>
                 </a>
               </li>
