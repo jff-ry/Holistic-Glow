@@ -1,0 +1,6 @@
+{
+  "name": "Holistic Glow Mobile Spa",
+  "description": "Bespoke luxury mobile spa treatments delivered directly to your home, hotel, or private residence in Kenya by Holistic Glow Mobile Spa (Holi-Glo). Professional massages, precision waxing, body scrubs, and combos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
