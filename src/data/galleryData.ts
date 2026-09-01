@@ -1,6 +1,6 @@
 import { GalleryItem } from '../types';
 import heroAfricanSpaImg from '../assets/images/hero_african_spa_1788112077485.jpg';
-import africanTherapistMassageImg from '../assets/images/african_therapist_massage_1788112091282.jpg';
+import holiGlowSetupImg from '../assets/images/holi_glow_setup_1788251444638.jpg';
 import diverseSpaRelaxationImg from '../assets/images/diverse_spa_relaxation_1788112110008.jpg';
 import africanFacialGlowImg from '../assets/images/african_facial_glow_1788112124543.jpg';
 import sanitizedLinenImg from '../assets/images/sanitized_linen_candle_vertical_1788019703723.jpg';
@@ -18,11 +18,11 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'gal-2',
-    title: 'Mobile Concierge Setup',
+    title: 'Holi-Glow Mobile Setup',
     category: 'atmosphere',
-    image: africanTherapistMassageImg,
+    image: holiGlowSetupImg,
     aspect: 'tall',
-    caption: 'Certified mobile therapist bringing luxury massage tables, sanitized linens, and warm botanical oils directly to your residence.',
+    caption: 'Certified mobile therapist bringing luxury massage tables, sanitized plush linens, and warm botanical oils directly to your residence.',
   },
   {
     id: 'gal-3',

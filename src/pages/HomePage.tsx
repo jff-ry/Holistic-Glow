@@ -4,7 +4,7 @@ import { Sparkles, ArrowRight, Clock, MapPin, ShieldCheck, Heart, Car, HeartPuls
 import TrustIndicators from '../components/TrustIndicators';
 import { CATEGORIES } from '../data/servicesData';
 import heroAfricanSpaImg from '../assets/images/hero_african_spa_1788112077485.jpg';
-import africanTherapistMassageImg from '../assets/images/african_therapist_massage_1788112091282.jpg';
+import holiGlowSetupImg from '../assets/images/holi_glow_setup_1788251444638.jpg';
 import sanitizedLinenImg from '../assets/images/sanitized_linen_candle_vertical_1788019703723.jpg';
 
 export default function HomePage() {
@@ -220,7 +220,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 5. HOW CONCIERGE MOBILE SPA WORKS */}
+      {/* 5. HOW HOLI-GLOW MOBILE SPA WORKS */}
       <section className="py-16 md:py-24 bg-[#F3ECE2] border-b border-[#14382C]/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
@@ -229,8 +229,8 @@ export default function HomePage() {
             <div className="lg:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="rounded-3xl overflow-hidden shadow-md border-1.5 border-[#C59B27]/50 bg-white">
                 <img
-                  src={africanTherapistMassageImg}
-                  alt="Certified mobile therapist providing home massage in Kenya"
+                  src={holiGlowSetupImg}
+                  alt="Holi-Glow luxury mobile spa setup in Kenya"
                   className="w-full h-64 sm:h-80 object-cover hover:scale-103 transition-transform duration-500"
                   referrerPolicy="no-referrer"
                 />
@@ -252,7 +252,7 @@ export default function HomePage() {
               </span>
 
               <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#14382C] font-normal leading-snug">
-                How Concierge Mobile Spa Works
+                How Holi-Glow Mobile Spa Works
               </h2>
 
               <p className="text-base sm:text-lg text-[#4A3E36] leading-relaxed">
