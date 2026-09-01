@@ -1,6 +1,6 @@
 import { CategoryInfo, ServiceItem } from '../types';
 import heroAfricanSpaImg from '../assets/images/hero_african_spa_1788112077485.jpg';
-import africanFacialGlowImg from '../assets/images/african_facial_glow_1788112124543.jpg';
+import africanManFacialImg from '../assets/images/african_man_facial_treatment_1788253243235.jpg';
 import precisionWaxingImg from '../assets/images/waxing_underarm_smooth_1788020111736.jpg';
 import bodyScrubImg from '../assets/images/body_scrub_massage_closeup_1788020929938.jpg';
 import africanSpaRitualImg from '../assets/images/african_spa_ritual_1788112140731.jpg';
@@ -18,7 +18,7 @@ export const CATEGORIES: CategoryInfo[] = [
     name: 'Facial Therapy',
     tagline: 'Deep cleansing, hydration & luminous glow',
     description: 'Customized mobile facial treatments utilizing botanical serums and gentle massage to revive and illuminate your complexion.',
-    image: africanFacialGlowImg,
+    image: africanManFacialImg,
   },
   {
     id: 'waxing',
@@ -36,9 +36,9 @@ export const CATEGORIES: CategoryInfo[] = [
   },
   {
     id: 'combos',
-    name: 'Curated Combos & Rituals',
+    name: 'Curated Combos & Packages',
     tagline: 'Harmonious all-inclusive wellness journeys',
-    description: 'Immersive multi-treatment rituals designed for deeper tranquility, head-to-toe renewal, and total rejuvenation.',
+    description: 'Immersive multi-treatment packages designed for deeper tranquility, head-to-toe renewal, and total rejuvenation.',
     image: africanSpaRitualImg,
   },
 ];
@@ -214,7 +214,7 @@ export const SERVICES: ServiceItem[] = [
     category: 'waxing',
     duration: '',
     priceKes: 8000,
-    description: 'Comprehensive full-body hair removal ritual providing complete, flawless skin smoothness.',
+    description: 'Comprehensive full-body hair removal treatment providing complete, flawless skin smoothness.',
     benefits: ['Head-to-toe smoothness', 'Complete aesthetic grooming', 'Long-lasting results'],
   },
 
@@ -249,7 +249,7 @@ export const SERVICES: ServiceItem[] = [
     benefits: ['Gentle exfoliation', 'Softens texture', 'Refreshes skin barrier'],
   },
 
-  // Combos & Curated Rituals
+  // Combos & Curated Packages
   {
     id: 'combo-swedish-coffee',
     name: 'Swedish + Coffee Scrub',

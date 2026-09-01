@@ -27,7 +27,7 @@ export default function Footer() {
             </Link>
             
             <p className="text-base text-[#F3ECE2]/85 leading-relaxed max-w-md pt-2 font-light">
-              Kenya's premier mobile spa experience delivering bespoke therapeutic massage, gentle precision waxing, renewing body scrubs, and curated rituals directly to your home, hotel, or private residence.
+              Kenya's premier mobile spa experience delivering bespoke therapeutic massage, gentle precision waxing, renewing body scrubs, and curated packages directly to your home, hotel, or private residence.
             </p>
 
             <div className="pt-3">

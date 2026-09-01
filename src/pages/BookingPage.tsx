@@ -257,7 +257,7 @@ export default function BookingPage() {
                       </option>
                     ))}
                   </optgroup>
-                  <optgroup label="Combos & Signature Rituals">
+                  <optgroup label="Combos & Signature Packages">
                     {SERVICES.filter((s) => s.category === 'combos').map((s) => (
                       <option key={s.id} value={s.id}>
                         {s.name} (KES {s.priceKes.toLocaleString()})

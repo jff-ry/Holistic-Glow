@@ -31,7 +31,7 @@ export default function ServicesPage() {
     { id: 'facials', name: 'Facial Therapy' },
     { id: 'waxing', name: 'Precision Waxing' },
     { id: 'scrubs', name: 'Scrubs & Body Polish' },
-    { id: 'combos', name: 'Combos & Rituals' },
+    { id: 'combos', name: 'Combos & Packages' },
   ];
 
   const currentCat = CATEGORIES.find((c) => c.id === activeCategory) || CATEGORIES[0];

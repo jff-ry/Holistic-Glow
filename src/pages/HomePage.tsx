@@ -24,7 +24,7 @@ export default function HomePage() {
 
               <div className="space-y-3">
                 <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-[64px] text-[#14382C] font-normal leading-[1.12] tracking-tight">
-                  Wellness rituals <br />
+                  Luxury spa experiences <br />
                   <span className="italic font-normal text-[#14382C]/90">delivered to your home or hotel.</span>
                 </h1>
                 <div className="w-24 h-[3px] bg-gradient-to-r from-[#C59B27] via-[#ECC870] to-[#C59B27] mt-4 rounded-full" />
