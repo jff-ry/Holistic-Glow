@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import MobileQuickBar from './components/MobileQuickBar';
+import WhatsAppFloatingButton from './components/WhatsAppFloatingButton';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ServicesPage from './pages/ServicesPage';
@@ -41,6 +42,9 @@ export default function App() {
 
         {/* Mobile Quick Action Floating Bar */}
         <MobileQuickBar />
+
+        {/* Global Floating WhatsApp Concierge Button */}
+        <WhatsAppFloatingButton />
       </div>
     </HashRouter>
   );

@@ -1,0 +1,7 @@
+# Robots.txt for Holistic Glow Mobile Spa
+# https://www.holisticglowspa.com
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.holisticglowspa.com/sitemap.xml
