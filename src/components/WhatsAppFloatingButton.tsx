@@ -179,14 +179,6 @@ export default function WhatsAppFloatingButton({
           className="relative group w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-[#25D366] hover:bg-[#20bd5a] text-white shadow-xl flex items-center justify-center border-2 border-white hover:scale-105 active:scale-95 transition-all duration-300"
           aria-label="Chat on WhatsApp with Holistic Glow Mobile Spa"
         >
-          {/* Notification Ping Badge */}
-          <span className="absolute -top-1 -right-1 flex h-4 w-4">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-4 w-4 bg-[#14382C] border border-white text-[9px] font-bold text-[#C59B27] items-center justify-center">
-              1
-            </span>
-          </span>
-
           <WhatsAppIcon className="w-7 h-7 sm:w-8 sm:h-8 fill-white drop-shadow-xs" />
         </button>
       </div>
