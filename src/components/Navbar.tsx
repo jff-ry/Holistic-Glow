@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
 import { Menu, X, Phone, MessageCircle, Mail, Clock, Sparkles } from 'lucide-react';
-import brandLogoImg from '../assets/images/holistic_glow_logo_1788024251079.jpg';
+import brandLogoImg from '../assets/images/holistic_glow_forest_green_logo_1788895834130.jpg';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Sparkles, ShieldCheck, Heart, Leaf, Award } from 'lucide-react';
 import TrustIndicators from '../components/TrustIndicators';
-import brandLogoImg from '../assets/images/holistic_glow_logo_1788024251079.jpg';
+import brandLogoImg from '../assets/images/holistic_glow_forest_green_logo_1788895834130.jpg';
 import africanSpaRitualImg from '../assets/images/african_spa_ritual_1788112140731.jpg';
 
 export default function AboutPage() {
